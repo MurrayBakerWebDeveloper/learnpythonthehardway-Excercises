@@ -1,0 +1,29 @@
+x = "There are %d types of people." % 10
+# Above line prints string and variable
+binary = "binary"
+# defines (binary) variable
+do_not = "don't"
+# defines (do_not) variable
+y = "Those who know %s and those who %s." % (binary, do_not)
+# defines variable (y) string and 2 variables
+print (x)
+# prints variable (x)
+print (y)
+# prints variable (y)
+print ("I said: %r." % x)
+# prints string and variable (x)
+print ("I also said: '%s'." % y)
+# prints string and variable (y)
+
+hilarious = False
+# defines variable (hilarious)
+joke_evaluation = "Isn't that joke so funny?! %r"
+# defines variable (joke_evaluation)
+print (joke_evaluation % hilarious)
+# prints two variables (joke_evaluation and hilarious)
+w = "This is the left side of..."
+# defines variable (w)
+e = "a string with a right side."
+# defines variable (e)
+print (w + e)
+# prints two variables (e and w)
