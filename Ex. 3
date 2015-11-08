@@ -1,0 +1,23 @@
+print "I will now count my chickens:"
+
+print "Hens" 30
+print "Roosters" 97
+
+print "Now I will count the eggs:"
+
+print 7
+
+print "Is it true that 3 + 2 < 5 - 7?"
+
+print False
+
+print "What is 3 + 2?", 5
+print "What is 5 - 7?", 5
+
+print "Oh, that's why it's False."
+
+print "How about some more."
+
+print "Is it greater?", True
+print "Is it greater or equal?", True
+print "Is it less or equal?", False
