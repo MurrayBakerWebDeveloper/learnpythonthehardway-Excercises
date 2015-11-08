@@ -1,0 +1,44 @@
+from sys import argv
+# brings variable argv from (python) system 
+script, filename = argv 
+# defines variable argv to filename's script                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+
+def print_all(f):
+# defines the print_all variable   
+	print f.read()
+#  variable performs the read file function  
+def rewind(f):
+# defines the rewind variable
+	f.seek(O)
+# variable performs the seek file function	
+def print_a_line(line_count, f):
+# defines print_a_line variable
+	print line_count, f.readline()
+# variable performs readline function for given line_count	
+current_file = open(input_file)
+#current_file function will open the input file 
+print ("First let's print the whole file:\n")
+# print string
+
+print_all(current_file)
+# print_all function reads/prints current_file
+
+print ("Now let's rewind, kind of like a tape.")
+# print string
+rewind(current_file)
+# rewind function rewinds current_file
+print ("Let's print three lines:")
+# print string
+
+current_line = 1
+# current line equals one
+print_a_line(current_line,current_file)
+# print_a_line functions reads/prints current_file's current_line
+current_line = current_line + 1
+# current_line equals current_line plus one
+print_a_line(current_line, current_file)
+# print_a_line function reads/prints current_file's current_line
+current_line = current_line + 1
+# current_line equals current_line plus one
+print_a_line(current_line, current_file)
+# print_a_line function reads/prints current_file's current_line
