@@ -1,0 +1,67 @@
+def cheese_and_crackers(cheese_count, boxes_of_crackers):
+# define variable cheese and crackers set to two different values
+	print ("You have %d cheeses!!" % cheese_count)
+# print string and variable
+	print ("You have %d boxes of crackers!" % boxes_of_crackers)
+# print string and variable
+	print ("Man that's enough for a party!")
+# print string
+	print ("Get a blanket.\n")
+# print string
+
+print ("We can just give the function numbers directly:")
+# print string 
+cheese_and_crackers(20, 30)
+# directly gives 2 values to function
+
+print ("OR, we can use variables from our script:")
+# prints string
+amount_of_cheese = 10
+# use variable to assign value
+amount_of_crackers = 50
+# use variable to assign value
+cheese_and_crackers(amount_of_cheese, amount_of_crackers)
+# calls function with new values
+
+print ("We can even do math inside too:")
+# prints string
+cheese_and_crackers(10 + 20, 5 + 6)
+# function completes math and prints out amount
+
+print ("And we can combine the two, variables and math:")
+# print string
+cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
+# function completes math and print outs amountdef cheese_and_crackers(cheese_count, boxes_of_crackers):
+# define variable cheese and crackers set to two different values
+	print ("You have %d cheeses!!" % cheese_count)
+# print string and variable
+	print ("You have %d boxes of crackers!" % boxes_of_crackers)
+# print string and variable
+	print ("Man that's enough for a party!")
+# print string
+	print ("Get a blanket.\n")
+# print string
+
+print ("We can just give the function numbers directly:")
+# print string 
+cheese_and_crackers(20, 30)
+# directly gives 2 values to function
+
+print ("OR, we can use variables from our script:")
+# prints string
+amount_of_cheese = 10
+# use variable to assign value
+amount_of_crackers = 50
+# use variable to assign value
+cheese_and_crackers(amount_of_cheese, amount_of_crackers)
+# calls function with new values
+
+print ("We can even do math inside too:")
+# prints string
+cheese_and_crackers(10 + 20, 5 + 6)
+# function completes math and prints out amount
+
+print ("And we can combine the two, variables and math:")
+# print string
+cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
+# function completes math and print outs amount
