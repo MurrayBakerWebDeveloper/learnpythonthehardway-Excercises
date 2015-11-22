@@ -1,0 +1,52 @@
+from sys import exit
+
+def bar():
+    print("You swing your way to a bar, there a few survivors here. And beer! Do you")
+    choice = input("want to drink out of the keg? (y/n):").lower()
+    if choice == 'y':
+        print("Your team's heroism is lauded when they find you weeks later each")
+        print("boasting thousands of zombie kills! They were thankful to see help")
+        print ("finally arrive, they had just tapped their final keg...")
+    elif choice == 'n':
+        dead("There's no sober way to wield a baseball bat covered in razor blades")
+    else:
+        dead("You've made it this far")
+
+def bat():
+    print("You pick up a baseball bat covered in razor blades. Zombies are coming in")
+    swing = input("through the front door do you swing on them? (y/n):").lower()
+    if swing == 'y':
+        bar()
+    elif swing == 'n':
+        dead("The zombies eat you alive")
+    else:
+        dead("The zombies eat you alive")
+def gun():
+    print("You pick up an extended clip semi-automatic shotgun and ammunition")
+    shoot = input ("Do you pull the trigger on the zombies?(y/n):").lower()
+    if shoot == 'y':
+        print ("You shoot your way to a cummins, it starts right up. You speed away into")
+        print ("the sunset")
+    if shoot == 'n':
+        dead("The gun isn't going to shoot itself")
+    else:
+        dead("A crowd of zombies surrounds you and eats you alive")
+
+def dead(why):
+        print (why, "Good job!")
+        exit(0)
+
+def start():
+    print ("Zombies are infesting your town. You have a gun and a bat")
+    print("Do you grab the gun or bat?")
+
+    choice  = input(">  ")
+
+    if choice == "gun":
+        gun()
+    elif choice == "bat":
+        bat()
+    else:
+        dead("No weapon, no escape, the zombies share your corpse as dinner")
+
+start()
