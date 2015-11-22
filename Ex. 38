@@ -1,0 +1,18 @@
+animals = ['bear', 'python', 'peacock', 'kangaroo', 'whale', 'platypus']
+
+#1
+animals[1]
+#2
+animals[2]
+#3
+animals[2]
+#4
+animals[3]
+#5
+animals[4]
+#6
+animals[2]
+#7
+animals[5]
+#8
+animals[4]
